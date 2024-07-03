@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice{
+public class TimeCalculator{
 
     public void calculateTime(int d, int s){
         float time = d/s;
@@ -8,7 +8,7 @@ public class practice{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        practice p = new practice();
+        TimeCalculator p = new TimeCalculator();
         int distance = sc.nextInt();
         int speed = sc.nextInt();
 
