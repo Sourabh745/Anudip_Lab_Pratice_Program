@@ -1,0 +1,17 @@
+import java.util.*;
+public class practice{
+
+    public void calculateTime(int d, int s){
+        float time = d/s;
+        System.out.println("Time is :"+time);
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        practice p = new practice();
+        int distance = sc.nextInt();
+        int speed = sc.nextInt();
+
+        p.calculateTime(distance, speed);
+    }
+}
