@@ -1,19 +1,19 @@
 import java.util.*;
-public class practice{
+public class SimpleInterest{
 
-   public void simpleInterest(int p, int r, int t){
+   public void simpleInterestCalulator(int p, int r, int t){
         float SI = (p*r*t)/100;
         System.out.println("Simple Interest: "+SI);
    }
    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        practice p = new practice();
+        SimpleInterest p = new SimpleInterest();
         int principle = sc.nextInt();
         int rate = sc.nextInt();
         int interest = sc.nextInt();
        
-        p.simpleInterest(principle,rate,interest);
+        p.simpleInterestCalculator(principle,rate,interest);
 
     }
 }
