@@ -2,7 +2,7 @@ import java.util.*;
 public class practice{
 
    public void simpleInterest(int p, int r, int t){
-        int SI = (p*r*t)/100;
+        float SI = (p*r*t)/100;
         System.out.println("Simple Interest: "+SI);
    }
    
