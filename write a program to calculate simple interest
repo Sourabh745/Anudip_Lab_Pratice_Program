@@ -1,0 +1,19 @@
+import java.util.*;
+public class practice{
+
+   public void simpleInterest(int p, int r, int t){
+        int SI = (p*r*t)/100;
+        System.out.println("Simple Interest: "+SI);
+   }
+   
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        practice p = new practice();
+        int principle = sc.nextInt();
+        int rate = sc.nextInt();
+        int interest = sc.nextInt();
+       
+        p.simpleInterest(principle,rate,interest);
+
+    }
+}
