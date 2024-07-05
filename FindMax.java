@@ -4,7 +4,7 @@ import java.util.*;
 
 class MaxNumber {
 
-    int num1, num2, max;
+    int num1, num2, max=0;
     MaxNumber(int a, int b) {
         num1 = a;
         num2 = b;
