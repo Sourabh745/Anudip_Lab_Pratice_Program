@@ -27,7 +27,7 @@ public class FindMax{
         System.out.print("Number Two is ");
         int b = sc.nextInt();
 
-        MaxNumber m = new MaxNumber(34, 45);
+        MaxNumber m = new MaxNumber(a, b);
         m.comparingNumber();
         m.display();
     }
